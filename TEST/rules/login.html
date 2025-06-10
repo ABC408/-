@@ -1,0 +1,26 @@
+<!DOCTYPE html> <!-- 声明文档类型为HTML5 -->
+<html lang="zh-CN"> <!-- 设置文档语言为中文 -->
+<head> <!-- 文档的头部区域 -->
+    <meta charset="UTF-8"> <!-- 设置字符编码为UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- 确保网页在移动设备上正确显示 -->
+    <title>登录系统</title> <!-- 设置网页的标题 -->
+    <link rel="stylesheet" href="style.css"> <!-- 引入外部CSS样式表 -->
+</head>
+<body> <!-- 网页的主体部分 -->
+    <div class="login-container"> <!-- 登录框容器 -->
+        <h1>欢迎登录</h1> <!-- 登录标题 -->
+        <form id="loginForm"> <!-- 登录表单 -->
+            <div class="input-group"> <!-- 用户名输入框容器 -->
+                <label for="username">用户名</label> <!-- 用户名输入框的标签 -->
+                <input type="text" id="username" name="username" required> <!-- 用户名输入框，设置为必填 -->
+            </div>
+            <div class="input-group"> <!-- 密码输入框容器 -->
+                <label for="password">密码</label> <!-- 密码输入框的标签 -->
+                <input type="password" id="password" name="password" required> <!-- 密码输入框，设置为必填 -->
+            </div>
+            <button type="submit" class="login-btn">登录</button> <!-- 登录按钮 -->
+        </form>
+    </div>
+    <script src="script.js"></script> <!-- 引入外部JavaScript文件 -->
+</body>
+</html>
